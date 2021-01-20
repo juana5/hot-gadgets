@@ -6,44 +6,48 @@
     <title>Hot-Gadgets</title>
     <link rel="shortcut icon" href="images/hot-gadgets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-</head>
-<body>
-  <div class="container" >
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
-         <a class="navbar-brand" href="#">
-             <img src="images/hot-gadgets/logo.png" alt="">
-         </a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         
-         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-           <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us </a>
-              </li>
-              <li class="nav-item" >
-                  <a class="nav-link" href="#">Contract Us</a>
-              </li>
-             </li>
-           </ul>
-         </div>
-       </div>
-     </nav>
-     
-
-</div>
-
+    
     
 
+    <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+
+  <!-- Navigation bar coding start here -->
+
+  <header class="container" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+      <img src="images/hot-gadgets/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#product">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-us">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    </header>
+
+      <!-- Navigation bar coding ends here -->
+
+
+
+        <!-- carousel bar coding start here -->
 
     <div class="container" >
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -83,8 +87,6 @@
             </div>
           </div>
 
-
-
               <div class="carousel-item">
                 <div class="row" >
                  <div class="col-md-6 d-flex align-items-center" >
@@ -101,17 +103,16 @@
                 </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </a>
+            
           </div>
     </div>
 
+    
+        <!-- carousel bar coding end here -->
+
+
+        
+        <!-- smartphone card coding start here -->
 
     <div class="container">
       <div class="row">
@@ -164,7 +165,11 @@
         </div>
   </div>
 
+  <!-- smartphone card coding end here -->
 
+
+
+  <!-- laptop card coding start here -->
 
   <div class="container">
     <div class="row">
@@ -181,7 +186,7 @@
               <img src="images/hot-gadgets/laptop/product-1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">ASUS VIVO Book</h5>
-                <p class="card-text">Some quick example text to build on the card title.</p>
+                <p class="card-text">Some quick example text to build on the card title.Some quick example text to build on the card title.Some quick example text to build on the card title.Some quick example text to build on the card title.Some quick example text to build on the card title.</p>
                 <br>
                 <h5>$2799</h5>
                 <button class="btn btn-dark" >Buy Now →</button>
@@ -219,9 +224,12 @@
         </div>
   </div>
 
+   <!-- laptop card coding end here -->
 
 
 
+
+    <!-- categorie coding start here -->
 
     <div class="container">
         <div class="categorie-title card-alignment" >
@@ -246,16 +254,17 @@
           <div class="col-md-6">
             <img class="d-block w-100" src="images/hot-gadgets/Categories/pale-order.png"alt="...">
           </div>
-
         </div>
-        
-
-      
     </div>
+
+    <!-- categorie coding end here -->
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     
 </body>
 </html>
